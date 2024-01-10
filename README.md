@@ -8,7 +8,7 @@ Data come most of the time of the database (postgres), but someone can get data 
 Allows for the analysis of departures from Dunkirk.
 
 Produces 
-![this kind of boxplot](Boxplot_Distribution des tonnages en fonction des pavillons partis de Dunkerque_parpavillon.png)
+![this kind of boxplot](Boxplot_Distribution des tonnages en fonction des pavillons partis de Dunkerque_parpavillon.jpg)
 
 ## Carto_module12.ipynb and carto_module12_suite.ipynb 
 
