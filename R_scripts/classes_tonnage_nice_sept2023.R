@@ -1,8 +1,8 @@
 # Entête -------------------------------------------------------------------
 ## Christine Plumejeaud-Perreau, U.M.R 7301 MIGRINTER
-## 17 avril 2023
-## Script d'analyse des données ICAR Montmorillon
-## Programme ICAR (Incertitudes cartographiques)
+## septembre-novembre 2023
+## Script d'analyse des données PORTIC - vérifier la crédibilité de la classification des types de navires
+## Programme PORITC
 
 setwd("C:/Travail/Projets/ANR_PORTIC/Reunions/2023-09-11_NICE_Cloture/Cartes")
 getwd()
