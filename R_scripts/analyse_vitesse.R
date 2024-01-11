@@ -1,6 +1,6 @@
 ###############################################################################
 ## Christine Plumejeaud-Perreau, U.M.R 7301 MIGRINTER
-## Script d'analyse des données d'accueil DNA en Nouvelle-Aquitaine, par commune
+## Script d'analyse des données PORTIC, pour Eurocarto 2022 (calcul de shiproutes)
 ###############################################################################
 
 meslibrairiesR <- "C:/Tools/R4"
@@ -34,13 +34,13 @@ load("outputs/env_entier.RData")
 ########################################################################
 
 ###  Accès distant SSH (après avoir ouvert la connexion SSH avec PUTTY, voir PPTX)
-#system('ssh -f plumegeo@134.158.33.179  -L 8002:localhost:5432 -N')
-system('sshpass -p PluUMR7266* ssh plumegeo@134.158.33.179 -L 8092:localhost:5432 -N')
+#system('ssh -f plumegeo@134.158.xxx.xxx  -L 8002:localhost:5432 -N')
+system('sshpass -p ****************** ssh loginuser@134.158.xxx.xxx -L 8092:localhost:5432 -N')
 
 ######## ATTENTION : AJOUTER LE MOT DE PASSE ########
 ## Ouverture de la connexion sur la base de données
 
-con <- dbConnect(dbDriver("PostgreSQL"), host='localhost', port='8002', dbname='portic_v7', user='postgres', password='mesange17')
+con <- dbConnect(dbDriver("PostgreSQL"), host='localhost', port='8002', dbname='portic_v7', user='postgres', password='xxxxxxxxx')
 
 
 library(RPostgres)
